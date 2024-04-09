@@ -8,7 +8,7 @@ const Blank_Card = () => {
   };
   return (
     <>
-    <div className=' w-[27vw] h-[24vw] my-10 bg-[#f5f6f0] rounded-md justify-center items-center flex'>
+    <div className=' md:w-[27vw] md:h-[24vw] w-[35vw] h-[40vw] my-10 bg-[#f5f6f0] rounded-md justify-center items-center flex'>
         {/* <img className=' self-center h-9' src={plus}/> */}
         <button 
         onClick={togglePopup} >

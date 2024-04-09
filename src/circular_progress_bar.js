@@ -9,7 +9,7 @@ const ProgressCircle = ({ percent }) => {
   }, [percent]);
 
   return (
-    <div className="relative w-7 h-7 mr-1">
+    <div className="relative md:w-7 md:h-7 h-5 w-5 mr-1">
       <svg className="absolute top-0 left-0 w-full h-full transform rotate-270" viewBox="0 0 120 120">
         {/* Background circle */}
         <circle
@@ -35,7 +35,7 @@ const ProgressCircle = ({ percent }) => {
       </svg>
       {/* Percentage label */}
       <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-        <span className="text-sm font-bold text-gray-700">{percent}</span>
+        <span className="md:text-sm text-xs font-bold text-gray-700">{percent}</span>
       </div>
     </div>
   );
