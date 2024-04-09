@@ -3,7 +3,7 @@ import ProgressCircle from './circular_progress_bar';
 const Nav = () => {
     return (
         <>
-            <div className='flex md:my-2 items-center my-1 justify-between md:h-15'>
+            <div className='flex md:my-2 items-center my-3 justify-between md:h-15'>
                 <div className='flex md:space-x-5 space-x-1 items-center md:mx-3 mx-1'>
                     <div className='bg-black text-white rounded-full md:text-3xl text-xs md:p-1 p-[0.25vw] md:w-[3vw] w-4 flex justify-center items-center'>B</div>
                     <div className='md:text-3xl text-xs w-[30vw]'>Project Dashboard</div>
