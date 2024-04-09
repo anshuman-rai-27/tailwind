@@ -5,8 +5,8 @@ const Card = () => {
     <>
     <div className=' w-[27vw] h-[24vw] my-10'>
         <div className='h-[17vw] overflow-hidden' ><img className='object-contain' src={card}/></div>
-        <div className='flex flex-col justify-center py-7  px-5  border-solid border-[#bfbfbf] rounded-b-md border-2 '>
-            <div>AI Character Demo Storyboard</div>
+        <div className='flex flex-col justify-center py-7  px-5  border-solid border-[#bfbfbf] rounded-b-md border-2 h-[7vw]'>
+            <div className='2xl:text-lg sm:text-sm'>AI Character Demo Storyboard</div>
             <div className='text-[#bfbfbf]'>Updated 19 Mar 24</div>
         </div>
     </div>

@@ -13,7 +13,7 @@ const ProgressCircle = ({ percent }) => {
       <svg className="absolute top-0 left-0 w-full h-full transform rotate-270" viewBox="0 0 120 120">
         {/* Background circle */}
         <circle
-          className="stroke-current stroke-blue-200"
+          className=" stroke-blue-300"
           cx="60"
           cy="60"
           r="54"
@@ -22,7 +22,7 @@ const ProgressCircle = ({ percent }) => {
         />
         {/* Progress circle */}
         <circle
-          className="stroke-current stroke-blue-400 "
+          className=" stroke-blue-500 "
           cx="60"
           cy="60"
           r="54"

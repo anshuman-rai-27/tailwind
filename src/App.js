@@ -6,11 +6,13 @@ import ContentBox from "./containtbox";
 
 function App() {
   return (
-    <div>
+    <>
+    <div className="w-full">
    <Offer/>
    <Nav/>
    <ContentBox/>
-    </div>
+   </div>
+    </>
   );
 }
 
